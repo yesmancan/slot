@@ -1,0 +1,151 @@
+body {
+    background-color: #eac739;
+}
+
+slot {
+    position: relative;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: table;
+}
+
+rect0 {
+    width: 600px;
+    height: 60px;
+    display: block;
+    background-color: #172323;
+    margin: 0 auto;
+}
+
+rect0>stop {
+    display: block;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    color: #eac739;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+rect0>stop:hover {
+    background-color: #000;
+    color: #eac739;
+}
+
+rect1 {
+    width: 540px;
+    height: 15px;
+    display: block;
+    background-color: #111a19;
+    margin: 0 auto;
+}
+
+slotbox {
+    background-color: #293939;
+    width: 540px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+slotbox>box {
+    background-color: #fff;
+    width: 157px;
+    height: 260px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    box-shadow: inset 7px 7px 0px 8px #bcbec0;
+    overflow: hidden;
+}
+
+slotbox>box>elem {
+    content: '';
+    background-image: url(./img/flush.png);
+    height: 260px;
+    display: block;
+    width: 142px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-position: 0 center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    transition: all 200ms;
+    background-position-y: -210px;
+}
+
+slotbox slotarmbox {
+    background-color: #172323;
+    width: 70px;
+    height: 50px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 85px;
+    right: -40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+slotbox slotarm {
+    background-color: #293939;
+    width: 20px;
+    height: 230px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 135px;
+    right: -15px;
+    transition: all 500ms;
+}
+
+slotbox slotarmball {
+    background-color: #e03732;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    right: -30px;
+    border-radius: 50px;
+    transition: all 450ms;
+}
+
+tophead {
+    background-color: #293939;
+    width: 540px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+tophead>dot {
+    background-color: #eac739;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    margin-right: 18px;
+}
